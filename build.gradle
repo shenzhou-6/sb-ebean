@@ -48,7 +48,7 @@ dependencies {
 		exclude group: 'org.springframework.boot',module: 'spring-boot-starter-tomcat'
 	}
 	implementation 'io.ebean:ebean:11.39.1'
-	implementation 'io.ebean:ebean-querybean:11.39.1'
+	implementation 'io.ebean:ebean-querybean:12.9.3'
 	compileOnly 'org.projectlombok:lombok'
 	runtimeOnly 'org.springframework.boot:spring-boot-devtools'
 	runtimeOnly 'mysql:mysql-connector-java'
